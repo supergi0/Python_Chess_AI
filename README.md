@@ -2,13 +2,13 @@
 
 ## Description
 
-- This is a simple chess engine written in Python. It uses the **minimax algorithm with alpha-beta pruning** to search the game tree.
+- This is a simple chess engine written in Python, created for my CS F407 AI course project.
 
-- The engine uses **iterative deepening** to search the game tree upto the maximal depth possible in a given amount of time.
+- It uses **minimax algorithm with alpha-beta pruning** to search the game tree. Since the maximal time limit per move was set to 20 sec, this agent uses **iterative deepening** to search the game tree upto the maximal depth possible in the given of time.
 
-- The scores for each minimax level are decided by a robust evaluation function that takes into account the piece numbers, piece positions, piece mobility, pawn structure, centralization, castling bonus, king safety, etc.
+- The scores for each minimax level are decided by a robust evaluation function that takes into account the **piece numbers, piece positions, piece mobility, pawn structure, centralization, castling bonus, king safety**, etc.
 
-- The engine is UCI compatible and can be played against another UCI compliant engine using arena.py
+- The engine is **UCI compatible** and can be played against another UCI compliant engine using arena.py
 
 ## How to run
 
